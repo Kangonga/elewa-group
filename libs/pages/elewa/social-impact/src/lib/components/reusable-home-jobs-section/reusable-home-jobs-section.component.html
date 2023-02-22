@@ -3,6 +3,6 @@
         {{message}}
     </span>
     <span [ngStyle]="{ 'text-align':textAlign }">
-        <a class="homeLink" routerLink={{destinationUrl}}>{{callToActionIntro}}{{callToAction}}</a>
+        {{callToActionIntro}} <a class="homeLink" routerLink={{destinationUrl}}>{{callToAction}}</a>
     </span>
 </section>
