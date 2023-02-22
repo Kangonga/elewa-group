@@ -13,6 +13,6 @@ import { ReusableHomeJobsSectionComponent } from './components/reusable-home-job
     SocialImpactHeroSectionComponent,
     ReusableHomeJobsSectionComponent,
   ],
-  exports: [SocialImpactPageComponent],
+  exports: [SocialImpactPageComponent,ReusableHomeJobsSectionComponent],
 })
 export class SocialImpactModule {}
