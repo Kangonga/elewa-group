@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeJobsSectionComponent {
   callToAction = "open opportunities"
-  callToActionIntro = "view"
+  callToActionIntro = "View"
   destinationUrl = "/jobs"
   message = `Become part of the family.`
   textAlign="center"
