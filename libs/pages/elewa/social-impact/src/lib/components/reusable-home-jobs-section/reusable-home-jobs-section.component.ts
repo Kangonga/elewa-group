@@ -10,4 +10,5 @@ export class ReusableHomeJobsSectionComponent {
   @Input() callToAction:string
   @Input() textAlign:string
   @Input() destinationUrl:string
+  @Input() callToActionIntro:string
 }
